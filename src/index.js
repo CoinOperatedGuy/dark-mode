@@ -37,7 +37,7 @@ const App = () => {
 
   return (
     <div className={darkClass}>
-      <Navbar useDark={useDark} serDark={setDark}/>
+      <Navbar useDark={useDark} setDark={setDark}/>
       <Charts coinData={coinData} />
     </div>
   );
